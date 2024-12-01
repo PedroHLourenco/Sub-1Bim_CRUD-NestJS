@@ -1,0 +1,22 @@
+
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "noImplicitReturns": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "target": "es2017",
+      "moduleResolution": "node",
+      "baseUrl": "./",
+      "outDir": "./dist",
+      "incremental": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+  }
